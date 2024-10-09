@@ -178,9 +178,37 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.card-2{
+
+.card-2 {
     justify-content: flex-start;
     gap: 32px;
 }
 
 /* why web dev section style end */
+
+
+/* Inspiration section style start */
+.inspiration {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 151px;
+}
+
+.inspiration-content {
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.vedio {
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    padding: 32px;
+    height: 550px;
+}
+.vedio iframe{
+    border-radius: 16px;
+}
+
+/* Inspiration section style end */
