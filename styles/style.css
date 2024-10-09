@@ -1,0 +1,44 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Azeret Mono", monospace; */
+/* common shared style */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Azeret Mono";
+}
+
+/* nav section style start */
+.nav {
+    border: 1px solid red;
+    max-width: 1325px;
+    padding: 35px 138px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .nav-txt {
+    color: #0D1321;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav .nav-btn {
+    color: #0D1321;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 7px;
+    border: 1px solid #0D1321;
+    opacity: 0.8;
+    padding: 16px 22px;
+}
