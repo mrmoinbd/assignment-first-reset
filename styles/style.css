@@ -13,6 +13,15 @@ body {
     font-family: "Azeret Mono";
 }
 
+.primary-title {
+    color: #0D1321;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
 .primary-paragraph {
     color: #0D1321;
     font-size: 16px;
@@ -20,7 +29,38 @@ body {
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
+}
+
+.primary-subtitle {
+    color: rgba(13, 19, 33, 0.70);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+    /* 150% */
+}
+
+.primary-btn {
+    color: #0D1321;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px solid #0D1321;
+    opacity: 0.7;
+    padding: 12px 20px;
+    margin-top: 32px;
+}
+
+.para-width {
+    /* padding: 0 50px; */
+    width: 852px;
     text-align: center;
+}
+
+.primary-para-width {
+    width: 468px;
 }
 
 /* nav section style start */
@@ -93,11 +133,6 @@ body {
     margin-bottom: 24px;
 }
 
-.banner-des {
-    /* padding: 0 50px; */
-    width: 852px;
-}
-
 .banner-btn {
     color: #FFF;
     font-size: 20px;
@@ -111,3 +146,41 @@ body {
 }
 
 /* header banner section style end */
+
+
+
+/* why web dev section style start */
+.why-web {
+    max-width: 1140px;
+    /* max-width: 80%; */
+    margin: 0 auto;
+    margin-top: 74px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+}
+
+/* .why-web-container {} */
+
+.web-title {
+    margin-bottom: 24px;
+}
+
+.div-card {
+    /* width: 70%; */
+    width: 946px;
+    margin: 0 auto;
+    margin-top: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-2{
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+/* why web dev section style end */
