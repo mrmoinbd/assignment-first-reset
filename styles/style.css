@@ -103,6 +103,10 @@ body {
     padding: 16px 22px;
 }
 
+.nav-btn:hover {
+    cursor: pointer;
+}
+
 
 /* header banner section style start */
 .header-banner {
@@ -154,7 +158,8 @@ body {
     padding: 21px 24px;
     margin-top: 32px;
 }
-.banner-btn:hover{
+
+.banner-btn:hover {
     cursor: pointer;
 }
 
@@ -199,7 +204,7 @@ body {
     margin-bottom: 32px;
 }
 
-.primary-btn:hover{
+.primary-btn:hover {
     cursor: pointer;
 }
 
@@ -212,7 +217,8 @@ body {
     margin: 0 auto;
     margin-top: 151px;
 }
-.inspiration-para{
+
+.inspiration-para {
     text-align: center;
     margin-top: 24px;
 }
