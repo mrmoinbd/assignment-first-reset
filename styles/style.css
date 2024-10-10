@@ -186,9 +186,11 @@ body {
     align-items: center;
 }
 
-.card-2 {
+.card-second {
     justify-content: flex-start;
     gap: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 /* why web dev section style end */
@@ -233,7 +235,10 @@ body {
 .card {
     padding: 40px;
     border-radius: 16px;
+}
 
+.card-paragraph {
+    margin-bottom: 24px;
 }
 
 .card-title {
@@ -272,7 +277,6 @@ body {
 
 /* Support section style start */
 .support {
-    border: 1px solid red;
     max-width: 1140px;
     min-height: 313px;
     margin: 0 auto;
@@ -289,6 +293,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    justify-content: center;
+    align-items: center;
 }
 
 .support-title {
@@ -304,9 +310,10 @@ body {
 .support-paragraph {
     color: #FFF;
     text-align: center;
+    width: 606px;
 }
 
-.input{
+.input {
     display: flex;
     gap: 16px;
     justify-content: center;
@@ -314,7 +321,7 @@ body {
 
 .support-input {
     color: rgba(13, 19, 33, 0.40);
-    text-align: center;
+    text-align: left;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -325,6 +332,7 @@ body {
     background: #FFF;
     width: 548px;
 }
+
 
 .submit {
     color: #0D1321;
@@ -340,3 +348,43 @@ body {
 }
 
 /* Support section style end */
+
+
+/* footer section style start */
+.foot {
+    width: 100%;
+    min-height: 100px;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-title {
+    color: #0D1321;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* footer section style end */
